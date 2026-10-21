@@ -1,0 +1,50 @@
+{
+  "name": "dsh-cua-preview",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Codex-like floating glass preview window for DeepSeek Harness background computer-use sessions (macOS).",
+  "type": "module",
+  "main": "plugin/index.js",
+  "exports": {
+    ".": "./plugin/index.js"
+  },
+  "files": [
+    "plugin",
+    "app",
+    "docs",
+    "scripts",
+    "assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "dsh": {
+    "compatibility": {
+      "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+    }
+  },
+  "scripts": {
+    "check": "node --check plugin/index.js && node --check app/main.js"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "computer-use",
+    "preview",
+    "macos",
+    "glassmorphism"
+  ],
+  "author": "ZhaoGC4",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhaoGC4/dsh-cua-preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZhaoGC4/dsh-cua-preview/issues"
+  },
+  "homepage": "https://github.com/ZhaoGC4/dsh-cua-preview#readme"
+}

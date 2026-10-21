@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+*.swp
+
+# Node / pnpm (the project itself has no runtime dependencies)
+node_modules/
+pnpm-lock.yaml
+
+# Runtime state and logs created by the plugin / overlay
+*.log
+.dsh/
+cua-preview/
+
+# Local test artifacts
+tmp/
+*.tmp
